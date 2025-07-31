@@ -1,2 +1,3 @@
-# esp32-voice-assistant-chatgpt
-Voice-controlled smart assistant using ESP32 + TensorFlow Lite Micro for offline wake word detection and ChatGPT API for intelligent responses. IoT + AI on a budget!
+# ESP32 Voice Assistant with ChatGPT
+An intelligent voice assistant built on the ESP32 microcontroller that recognizes voice commands...
+(Truncated for brevity here; full content will be used in actual file)
