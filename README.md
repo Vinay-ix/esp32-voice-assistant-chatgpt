@@ -92,7 +92,7 @@ esp32-voice-assistant-chatgpt/
 
 git clone https://github.com/yourusername/esp32-voice-assistant-chatgpt.git
 cd esp32-voice-assistant-chatgpt 
-
+---
 2. Install Arduino Dependencies
 In Arduino IDE, install the following libraries:
 
@@ -103,16 +103,18 @@ HTTPClient.h
 ArduinoJson
 
 TensorFlowLite_ESP32 or tflite-micro
-
+---
 3. Configure Wi-Fi and API Keys
 Update the main.ino:
 const char* ssid = "YourWiFiSSID";
 const char* password = "YourWiFiPassword";
 const char* chatgpt_token = "Bearer YOUR_OPENAI_API_KEY";
+---
 4. Upload the Code
 Open code/main.ino in Arduino IDE
 
 Select the correct ESP32 board & COM port
+
 
 Upload the sketch
 🗣️ Example Voice Commands
@@ -121,21 +123,21 @@ Command	Action
 "Turn off fan"	Turns off connected fan via relay
 "What's the weather"	Calls weather API and returns response
 "How are you?"	Forwards query to ChatGPT
-
+---
 📊 Results & Performance
 Metric	Result
 Wake Word Accuracy	94% in controlled setting
 Command Accuracy	90% (10 test commands)
 Offline Response Time	250–400 ms
 Online Query Time	800 ms – 1.5 sec
-
+---
 🚧 Limitations
 Background noise may affect wake word detection
 
 Limited offline NLP capability (basic commands only)
 
 Internet required for ChatGPT/cloud APIs
-
+---
 🚀 Future Scope
 🌍 Multi-language support
 
@@ -146,7 +148,7 @@ Internet required for ChatGPT/cloud APIs
 🧠 Improved on-device NLP via better models
 
 📊 Cloud dashboard integration (e.g., Firebase)
-
+---
 👨‍💻 Authors
 Name	Email	VIT Reg. No
 Vinay	22BEC1247
